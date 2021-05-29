@@ -76,12 +76,49 @@
 
 .newsletter-content{
     color: white;
+    text-align: center;
+    padding: 100px 200px 10px 200px;
 }
 
 .newsletter-content h4{
     font-size: 52px;
+    margin: 0px;
 }
 
 .newsletter-content p{
     font-size: 22px;
 }
+
+.footer-main{
+    background-color: #E74832;
+    color: white;
+}
+
+.footer-item h5{
+    font-size: 22px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.footer-img{
+    padding-right: 100px;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 50px 20px 50px 20px;
+}
+
+.footer-nav-list{
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-nav-list .footer-nav-link{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
