@@ -1,0 +1,24 @@
+.body{
+    margin: 0px;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.card-thumbnail{
+    height: 265px;
+    background-size: cover;
+}
+
+.card-content{
+    color: #003B5C;
+    font-size: 22px;
+}
+
+.section-newsletter{
+    
+}
