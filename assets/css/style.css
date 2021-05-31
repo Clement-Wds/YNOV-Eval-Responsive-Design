@@ -1,4 +1,9 @@
-.body{
+@font-face {
+    font-family: "HKGrotesk";
+    src: url('assets/HKgrotesque/HKGrotesk-Regular.otf');
+}
+
+body{
     margin: 0px;
 }
 
