@@ -31,6 +31,8 @@ body{
 .header-nav .nav-list .nav-link{
     text-decoration: none;
     display: inline-block;
+    color: #003B5C;
+    font-size: 12px;
 }
 
 .section-articles .articles-wrapper{
@@ -48,17 +50,28 @@ body{
 }
 
 .articles-content{
+    display: block;
     text-align: center;
     background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .articles-content h4{
     margin: 0px;
+    color: #003B5C;
+    font-size: 36px;
+    font-weight: normal;
 }
 
 .articles-content p{
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+.articles-content small{
+    color: #5D534F;
+    font-size: 16px;
 }
 
 .section-card h1{
@@ -77,11 +90,12 @@ body{
 
 .card-title{
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .card-title h1{
-    padding-bottom: 4px;
+    padding: 7px 0px 7px 0px;
+    color: #003B5C;
+    font-size: 24px;
 }
 
 .card-menu{
@@ -98,7 +112,7 @@ body{
 }
 
 .nav-card-link{
-    padding: 5px;
+    padding: 0px 20px 0px 20px;
 }
 
 .card-menu .nav-card-list{
@@ -109,7 +123,9 @@ body{
 
 .card-menu .nav-card-list .nav-card-link{
     text-decoration: none;
+    color: #979797;
     display: inline-block;
+    font-size: 12px;
 }
 
 .card-grid{
@@ -126,6 +142,9 @@ body{
 
 .card-content h4{
     margin: 0px;
+    color: #003B5C;
+    font-size: 22px;
+    font-weight: normal;
 }
 
 .card-content p{
@@ -146,6 +165,8 @@ body{
 .section-newsletter{
     height: 456px;
     background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .newsletter-content{
@@ -166,6 +187,7 @@ body{
 .footer-main{
     background-color: #E74832;
     color: white;
+    margin-top: 30px;
 }
 
 .footer-item h5{
