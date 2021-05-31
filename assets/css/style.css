@@ -7,14 +7,6 @@ body{
     margin: 0px;
 }
 
-.section-articles .articles-wrapper{
-    display: flex;
-    margin-left: 20px;
-}
-
-.section-card h1{
-    text-align: center;
-}
 
 .header-logo{
     text-align: center;
@@ -41,10 +33,68 @@ body{
     display: inline-block;
 }
 
+.section-articles .articles-wrapper{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+}
+
+.articles-item{
+    padding: 10px;
+}
+
+
+.articles-img img{
+    width: 100%;
+}
+
+.articles-content{
+    text-align: center;
+    background-color: white;
+}
+
+.articles-content h4{
+    margin: 0px;
+}
+
+.articles-content p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.section-card h1{
+    text-align: center;
+}
+
+.articles-link{
+    margin-top: 10px;
+}
+
+.articles-link a{
+    text-decoration: none;
+    color: #E74832;
+    font-size: 12px;
+}
+
+.card-title{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title h1{
+    padding-bottom: 4px;
+}
+
 .card-menu{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+
+}
+
+.card-menu-link a{
+    text-decoration: none;
+    color: #E74832;
+    font-size: 12px;
 }
 
 .nav-card-link{
@@ -72,6 +122,25 @@ body{
 .card-thumbnail{
     height: 265px;
     background-size: cover;
+}
+
+.card-content h4{
+    margin: 0px;
+}
+
+.card-content p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-content-link a{
+    text-decoration: none;
+    color: #E74832;
+    font-size: 12px;
+}
+
+.card-content-link{
+    margin-top: 10px;
 }
 
 .section-newsletter{
