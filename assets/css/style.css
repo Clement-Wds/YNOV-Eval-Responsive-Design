@@ -184,6 +184,10 @@ body{
     font-size: 22px;
 }
 
+.newsletter-link{
+    margin-top: 50px;
+}
+
 .footer-main{
     background-color: #E74832;
     color: white;
@@ -191,9 +195,14 @@ body{
 }
 
 .footer-item h5{
+    margin-top: 0px;
+    margin-bottom: 10px;
     font-size: 22px;
-    margin: 0px;
-    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+.footer-item a{
+    font-size: 12px;
 }
 
 .footer-img{
@@ -201,10 +210,12 @@ body{
 }
 
 .footer-grid{
+    margin-left: 2%;
+    margin-right: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 50px 20px 50px 20px;
+    grid-gap: 15px;
+    padding: 50px 0px 50px 0px;
 }
 
 .footer-nav-list{
@@ -218,3 +229,35 @@ body{
     color: white;
 }
 
+.footer-grid-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-line{
+    background-color: white;
+    height: 1px;
+    margin-top: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.footer-end-content{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-end-content a{
+    margin: 0px;
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.footer-end-content p{
+    margin: 0px;
+    margin-right: 2%;
+    float: right;
+    font-size: 12px;
+}
